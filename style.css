@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academia de alto nível para todos os tipos de treino e fitness.">
+    <title>Academia Fitness Power</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Academia Fitness Power</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="#treinos">Treinos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre a Academia</h2>
+            <p>A Academia Fitness Power é o lugar ideal para quem busca qualidade de vida, saúde e bem-estar. Oferecemos uma ampla gama de equipamentos, aulas de grupo e treinos personalizados para todas as idades e objetivos!</p>
+        </div>
+    </section>
+
+    <!-- Seção Planos -->
+    <section id="planos" class="section bg-light">
+        <div class="container">
+            <h2>Planos de Assinatura</h2>
+            <div class="planos">
+                <div class="plano">
+                    <h3>Plano Básico</h3>
+                    <p>R$ 99,90 / Mês</p>
+                    <ul>
+                        <li>Acesso limitado aos horários</li>
+                        <li>Treinos livres</li>
+                    </ul>
+                </div>
+                <div class="plano">
+                    <h3>Plano Intermediário</h3>
+                    <p>R$ 149,90 / Mês</p>
+                    <ul>
+                        <li>Acesso durante todo o dia</li>
+                        <li>Aulas de grupo</li>
+                        <li>Descontos em personal trainer</li>
+                    </ul>
+                </div>
+                <div class="plano">
+                    <h3>Plano Premium</h3>
+                    <p>R$ 199,90 / Mês</p>
+                    <ul>
+                        <li>Acesso ilimitado</li>
+                        <li>Aulas exclusivas</li>
+                        <li>Consultoria personalizada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Treinos -->
+    <section id="treinos" class="section">
+        <div class="container">
+            <h2>Tipos de Treino</h2>
+            <div class="treinos">
+                <div class="treino">
+                    <img src="https://via.placeholder.com/400x300" alt="Treino de musculação">
+                    <h3>Musculação</h3>
+                    <p>Fortaleça sua musculatura com nossos equipamentos de última geração e treinadores qualificados.</p>
+                </div>
+                <div class="treino">
+                    <img src="https://via.placeholder.com/400x300" alt="Treino de funcional">
+                    <h3>Treino Funcional</h3>
+                    <p>Melhore sua resistência e coordenação com exercícios dinâmicos e de alta performance.</p>
+                </div>
+                <div class="treino">
+                    <img src="https://via.placeholder.com/400x300" alt="Treino de yoga">
+                    <h3>Yoga</h3>
+                    <p>Traga equilíbrio para sua vida com aulas de yoga que ajudam no alongamento e na flexibilidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section bg-light">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Fale conosco para mais informações sobre planos, treinos e horários.</p>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Academia Fitness Power | Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
