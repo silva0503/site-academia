@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Academia de alto nível para todos os tipos de treino e fitness.">
-    <title>Academia Fitness Power</title>
+    <meta name="description" content="Academia de alto nível para todos os tipos de treinos.">
+    <title>Academia de lutas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Cabeçalho -->
     <header>
         <div class="container">
-            <h1>Academia Fitness Power</h1>
+            <h1>Academia de lutas</h1>
             <nav>
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
@@ -27,7 +27,8 @@
     <section id="sobre" class="section">
         <div class="container">
             <h2>Sobre a Academia</h2>
-            <p>A Academia Fitness Power é o lugar ideal para quem busca qualidade de vida, saúde e bem-estar. Oferecemos uma ampla gama de equipamentos, aulas de grupo e treinos personalizados para todas as idades e objetivos!</p>
+            <p>A Academia de lutas é o lugar ideal para quem busca qualidade de vida, humildade e disciplinas.
+             Oferecemos uma ampla gama de equipamentos, aulas de grupo e treinos personalizados para todas as idades e objetivos!</p>
         </div>
     </section>
 
@@ -38,24 +39,24 @@
             <div class="planos">
                 <div class="plano">
                     <h3>Plano Básico</h3>
-                    <p>R$ 99,90 / Mês</p>
+                    <p>R$ 110 por Mês</p>
                     <ul>
                         <li>Acesso limitado aos horários</li>
-                        <li>Treinos livres</li>
+                        <li>Treinos marcados</li>
                     </ul>
                 </div>
                 <div class="plano">
-                    <h3>Plano Intermediário</h3>
-                    <p>R$ 149,90 / Mês</p>
+                    <h3>Plano intermediario</h3>
+                    <p>R$ 135 por Mês</p>
                     <ul>
-                        <li>Acesso durante todo o dia</li>
-                        <li>Aulas de grupo</li>
-                        <li>Descontos em personal trainer</li>
+                        <li>Acesso a academia de segunda até sabado</li>
+                        <li>Aulas em grupos</li>
+                        <li>Descontos em treinos em dias</li>
                     </ul>
                 </div>
                 <div class="plano">
                     <h3>Plano Premium</h3>
-                    <p>R$ 199,90 / Mês</p>
+                    <p>R$ 100 por Mês</p>
                     <ul>
                         <li>Acesso ilimitado</li>
                         <li>Aulas exclusivas</li>
@@ -72,9 +73,9 @@
             <h2>Tipos de Treino</h2>
             <div class="treinos">
                 <div class="treino">
-                    <img src="https://via.placeholder.com/400x300" alt="Treino de musculação">
-                    <h3>Musculação</h3>
-                    <p>Fortaleça sua musculatura com nossos equipamentos de última geração e treinadores qualificados.</p>
+                    <img src="https://via.placeholder.com/400x300" alt="Treino de teep e jabs">
+                    <h3>teeps, jabbs</h3>
+                    <p>Fortaleça seu potencial e organize sua disciplina. Com nossos equipamentos de última geração e treinadores qualificados.</p>
                 </div>
                 <div class="treino">
                     <img src="https://via.placeholder.com/400x300" alt="Treino experimento">
@@ -84,7 +85,7 @@
                 <div class="treino">
                     <img src="https://via.placeholder.com/400x300" alt="Treino de luta">
                     <h3>Yoga</h3>
-                    <p>Traga equilíbrio para sua vida com aulas de lutas para ter disciplinas e defesa.</p>
+                    <p>Traga equilíbrio para sua vida com aulas de lutas para ter disciplinas e defesas.</p>
                 </div>
             </div>
         </div>
@@ -107,7 +108,7 @@
     <!-- Rodapé -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Academia de lutas | Todos os direitos reservados</p>
+            <p>&copy; 2026  Academia de lutas | Todos os direitos reservados com otimos treinadores profissionais.</p>
         </div>
     </footer>
 </body>
