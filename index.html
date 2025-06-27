@@ -1,149 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tudo sobre lutas, esportes de combate e muito mais!">
-    <title>Site de Lutas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #807c7c;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        nav {
-            background-color: #807c7c;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            background-color: #807c7c;
-        }
-
-        .content {
-            padding: 20px;
-            text-align: center;
-        }
-
-        .content h2 {
-            color: #807c7c;
-        }
-
-        .fight-info {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .fight-card {
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 250px;
-            padding: 15px;
-            text-align: center;
-        }
-
-        .fight-card img {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        footer {
-            background-color: #807c7c;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Academia de Artes Marciais - Seu Nome/Nome da Academia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1>Bem-vindo ao Mundo das Lutas!</h1>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo da Academia">
+                <h1>Academia de Artes Marciais</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#modalidades">Modalidades</a></li>
+                <li><a href="#treinadores">Treinadores</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#noticias">Notícias</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#contato">Contato</a>
-    </nav>
-
-    <div class="content" id="sobre">
-        <h2>O que são esportes de combate?</h2>
-        <p>Esportes de combate incluem uma variedade de atividades que envolvem lutas físicas entre dois ou mais participantes,
-         geralmente com regras que garantem a segurança dos envolvidos. Exemplos incluem MMA, boxe, judô e artes marciais entre outros.</p>
-    </div>
-
-    <div class="content" id="noticias">
-        <h2>Últimas Notícias</h2>
-        <div class="fight-info">
-            <div class="fight-card">
-                <img src="img.zip" alt="Imagem de luta">
-                <h3>Campeonato de MMA 2026</h3>
-                <p>Prepare-se para o maior evento de MMA do ano que vem! Grandes lutadores vão se enfrentar em uma noite inesquecível.</p>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Transforme-se através das Artes Marciais</h2>
+                <p>Aprenda disciplina, força e autodefesa com os melhores.</p>
+                <a href="#contato" class="btn">Comece Agora!</a>
             </div>
-            <div class="fight-card">
-                <img src="https://via.placeholder.com/250x150" alt="Imagem de luta">
-                <h3>Boxe: O Retorno dos Campeões está de volta</h3>
-                
-                <p>Os campeões de boxe estão de volta para defender seus títulos. Quem será que levará a melhor?</p>
+        </section>
+
+        <section id="modalidades" class="section-padding">
+            <h2>Nossas Modalidades</h2>
+            <div class="modalidades-grid">
+                <div class="modalidade-item">
+                    <h3>Karatê</h3>
+                    <p>Desenvolva foco e técnica com o clássico Karatê.</p>
+                    <img src="karate.jpg" alt="Aula de Karatê">
+                </div>
+                <div class="modalidade-item">
+                    <h3>Jiu-Jitsu</h3>
+                    <p>Domine a arte suave e aprimore suas habilidades de solo.</p>
+                    <img src="jiujitsu.jpg" alt="Aula de Jiu-Jitsu">
+                </div>
+                <div class="modalidade-item">
+                    <h3>Muay Thai</h3>
+                    <p>Fortaleça corpo e mente com a arte das oito armas.</p>
+                    <img src="muaythai.jpg" alt="Aula de Muay Thai">
+                </div>
             </div>
+        </section>
+
+        <section id="treinadores" class="section-padding bg-light">
+            <h2>Nossos Treinadores</h2>
+            <div class="treinadores-grid">
+                <div class="treinador-card">
+                    <img src="treinador1.jpg" alt="Treinador 1">
+                    <h3>Mestre João Silva</h3>
+                    <p>Faixa Preta 5º Dan em Karatê</p>
+                </div>
+                <div class="treinador-card">
+                    <img src="treinador2.jpg" alt="Treinador 2">
+                    <h3>Professora Maria Souza</h3>
+                    <p>Faixa Marrom em Jiu-Jitsu</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="section-padding">
+            <h2>Nossa Galeria</h2>
+            <div class="galeria-grid">
+                <img src="galeria1.jpg" alt="Foto da Academia 1">
+                <img src="galeria2.jpg" alt="Foto da Academia 2">
+                <img src="galeria3.jpg" alt="Foto da Academia 3">
+                <img src="galeria4.jpg" alt="Foto da Academia 4">
+            </div>
+        </section>
+
+        <section id="contato" class="section-padding bg-dark text-white">
+            <h2>Entre em Contato</h2>
+            <p>Envie-nos uma mensagem e comece sua jornada nas artes marciais!</p>
+            <form id="contact-form">
+                <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+            <div id="form-message" style="margin-top: 15px; color: green;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Academia de Artes Marciais. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
         </div>
-    </div>
-
-    <div class="content" id="galeria">
-        <h2>Galeria de Lutas</h2>
-        <div class="fight-info">
-            <div class="fight-card">
-                <img src="silva/diferenca-entre-MMA-e-boxe-min-1024x683.jpg"Imagem de luta 1">
-            </div>
-            <div class="fight-card">
-                <img src="silva/mma.webp" alt="Imagem de luta 2">
-           
-            </div>
-        </div>
-    </div>
-    <div class="content" id="contato">
-        <h2>Entre em Contato</h2>
-        <p>Tem alguma dúvida ou sugestão? Procure falar conosco! 
-            Para saber mais sobre os treinos e também sobre as lutas.</p>
-        <form action="mailto:contato@exemplo.com" method="post" enctype="text/plain">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </div>
-
-
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
